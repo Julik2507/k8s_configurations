@@ -11,4 +11,4 @@ spec:
       targetPort: 6379
       name: redis-service
   selector:
-    tier: db
+    tier: redis
